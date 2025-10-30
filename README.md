@@ -93,7 +93,7 @@ Sistem siap digunakan langsung tanpa setup tambahan!
 File `configuration/email_config.php` sudah berisi:
 - SMTP Host: Gmail (smtp.gmail.com)
 - Port: 587 (TLS)
-- Email pengirim: lutfifirdaus238@gmail.com
+- Email pengirim: prcfpbl@gmail.com
 - App Password: sudah valid dan aktif
 
 **🎯 Untuk Demo/Testing:**
