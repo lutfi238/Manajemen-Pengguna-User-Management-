@@ -1,0 +1,56 @@
+# Vendor dependencies
+configuration/vendor/
+vendor/
+
+# Composer lock (optional, uncomment if you want to ignore)
+# configuration/composer.lock
+
+# Email config with credentials (IMPORTANT!)
+# Uncomment line below to hide your email credentials from GitHub
+# configuration/email_config.php
+
+# Database config with password (if needed)
+# connect.php
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+error_log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# PHP cache
+*.cache
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Node modules (if ever needed)
+node_modules/
+
+# Test files
+test/
+tests/
+phpunit.xml
