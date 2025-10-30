@@ -76,13 +76,35 @@ $dbname = "uts_web";
 
 ### 6. Konfigurasi Email ✉️
 
-**Status: Email sudah AKTIF dan dikonfigurasi dengan Gmail**
+**✅ Status: Email SUDAH DIKONFIGURASI dan SIAP PAKAI!**
 
-File `configuration/email_config.php` sudah berisi konfigurasi SMTP Gmail yang valid. Email akan otomatis terkirim untuk:
-- **Aktivasi akun** setelah registrasi
-- **Reset password** saat lupa password
+**Untuk sekarang tinggal coba saja** karena email sudah dikonfigurasi dengan Gmail yang valid. **TIDAK PERLU konfigurasi `email_config.php` lagi** untuk testing/demo.
 
-Jika ingin menggunakan email Anda sendiri, edit `configuration/email_config.php`:
+Email akan **otomatis terkirim** untuk:
+- ✉️ **Aktivasi akun** setelah registrasi
+- 🔐 **Reset password** saat lupa password
+
+Sistem siap digunakan langsung tanpa setup tambahan!
+
+---
+
+**📋 Informasi Email Config (sudah terkonfigurasi):**
+
+File `configuration/email_config.php` sudah berisi:
+- SMTP Host: Gmail (smtp.gmail.com)
+- Port: 587 (TLS)
+- Email pengirim: lutfifirdaus238@gmail.com
+- App Password: sudah valid dan aktif
+
+**🎯 Untuk Demo/Testing:**
+- Langsung jalankan sistem
+- Registrasi user baru → Email aktivasi akan terkirim otomatis
+- Reset password → Email reset akan terkirim otomatis
+- Cek folder Spam/Junk jika email tidak masuk di Inbox
+
+**🔧 Jika Ingin Ganti Email Sendiri (Opsional):**
+
+Edit `configuration/email_config.php` dengan kredensial Anda:
 
 ```php
 return [
@@ -101,7 +123,7 @@ return [
 3. Cari **App passwords** → Generate untuk "Mail"
 4. Copy password 16 karakter ke `smtp_password`
 
-**Fallback:** Jika email gagal terkirim, sistem otomatis menampilkan link manual untuk aktivasi/reset.
+**🛡️ Fallback:** Jika email gagal terkirim, sistem otomatis menampilkan link manual untuk aktivasi/reset.
 
 ## 🚀 Cara Menjalankan
 
